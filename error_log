@@ -1,0 +1,45 @@
+[25-Sep-2020 18:31:05 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 18:31:48 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 18:34:28 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 18:35:52 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 18:36:09 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 18:38:09 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 18:38:29 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 18:38:30 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 18:39:06 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 18:39:07 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 18:39:17 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 18:42:26 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 18:42:28 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 18:46:36 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 18:49:52 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 18:50:11 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 19:19:12 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 19:19:14 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 19:19:15 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 19:19:19 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 19:20:00 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 19:20:06 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 19:20:41 America/Sao_Paulo] PHP Fatal error:  Call to undefined function mysql_connect() in /var/www/html/pdv/lib/database/drivers/mysql/mysql_driver.php on line 136
+[25-Sep-2020 19:20:45 America/Sao_Paulo] PHP Fatal error:  Call to undefined function mysql_connect() in /var/www/html/pdv/lib/database/drivers/mysql/mysql_driver.php on line 136
+[25-Sep-2020 19:20:46 America/Sao_Paulo] PHP Fatal error:  Call to undefined function mysql_connect() in /var/www/html/pdv/lib/database/drivers/mysql/mysql_driver.php on line 136
+[25-Sep-2020 19:20:55 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 19:22:33 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 19:22:34 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 19:25:05 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 19:25:07 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 19:26:05 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 19:27:09 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 19:27:10 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 19:27:56 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 19:27:57 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 19:30:01 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 19:31:21 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 19:31:22 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 19:32:23 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 19:32:25 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 19:32:29 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 19:32:45 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 19:32:57 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
+[25-Sep-2020 19:38:50 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /var/www/html/pdv/app/controllers/Products.php on line 53
+[25-Sep-2020 19:38:54 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /var/www/html/pdv/app/controllers/Products.php on line 53
