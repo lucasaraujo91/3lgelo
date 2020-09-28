@@ -120,7 +120,11 @@
     </header>
 
     <aside class="main-sidebar">
-        <section class="sidebar">
+
+
+        <div class="row">
+            <class class="col-xs-12">
+                <section class="sidebar">
             <ul class="sidebar-menu">
                 <!-- <li class="header"><?= lang('mian_navigation'); ?></li> -->
 
@@ -309,9 +313,15 @@
                 <?php } ?>
             </ul>
         </section>
+            </class>
+        </div>
+
+
     </aside>
 
     <div class="content-wrapper">
+
+
         <section class="content-header">
 
             <h1><?= $page_title; ?></h1>
@@ -356,7 +366,7 @@
             <?php } ?>
         </div>
 
-              <div class="col-lg-12 alerts">
+        <div class="col-lg-12 alerts">
                 <?php if ($error)  { ?>
                     <div class="alert alert-danger alert-dismissable">
                         <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
@@ -372,22 +382,23 @@
                 <?php } ?>
             </div>
 
-            <table style="width:100%;" class="layout-table">
+        <table style="width:100%;" class="layout-table">
                 <tr>
 
                     <td style="width: 620px;">
 
-                        <div id="pos">
-                            <div  style="margin-bottom:5px; width: 150px; height: 120px;">
-                                    <div id="item-list">
+
+        <?= form_open('pos', 'id="pos-sale-form"'); ?>
+        <div class="well well-sm" id="leftdiv">
+            <div id="lefttop" style="margin-bottom:5px;">
+                <div id="pos">
+                    <div  style="margin-bottom:5px; width: 150px; height: 120px;">
+                        <div id="item-list">
                             <div class="items">
                                 <?php echo $products; ?>
                             </div>
                         </div>
-        </div>
-        <?= form_open('pos', 'id="pos-sale-form"'); ?>
-        <div class="well well-sm" id="leftdiv">
-            <div id="lefttop" style="margin-bottom:5px;">
+                    </div>
                 <div class="form-group" style="margin-bottom:5px;">
                     <div class="input-group">
                         <?php foreach($customers as $customer){ $cus[$customer->id] = $customer->name; } ?>
@@ -534,7 +545,7 @@
 
 
 
-<aside class="control-sidebar control-sidebar-dark" id="categories-list">
+        <aside class="control-sidebar control-sidebar-dark" id="categories-list">
     <div class="tab-content sb">
         <div class="tab-pane active sb" id="control-sidebar-home-tab">
             <div id="filter-categories-con">
@@ -560,16 +571,16 @@
         </div>
     </div>
 </aside>
-<div class="control-sidebar-bg sb"></div>
-</div>
+        <div class="control-sidebar-bg sb"></div>
+    </div>
 
         <div id="order_tbl" style="display:none;"><span id="order_span"></span>
         <table id="order-table" class="prT table table-striped table-condensed" style="width:100%;margin-bottom:0;"></table>
-    </div>
+        </div>
         <div id="bill_tbl" style="display:none;"><span id="bill_span"></span>
         <table id="bill-table" width="100%" class="prT table table-striped table-condensed" style="width:100%;margin-bottom:0;"></table>
         <table id="bill-total-table" width="100%" class="prT table table-striped table-condensed" style="width:100%;margin-bottom:0;"></table>
-    </div>
+        </div>
         <div style="width:380px;background:#FFF;display:block">
         <div id="order-data" style="display:none;" class="text-center">
             <h1><?= $store->name; ?></h1>
