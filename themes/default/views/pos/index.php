@@ -385,15 +385,7 @@
 
         <div class="well well-sm" id="leftdiv">
 
-        <table style="width:100%;" class="layout-table">
-            <tr>
-
-                <td style="width: 620px;">
-
-
-                    <?= form_open('pos', 'id="pos-sale-form"'); ?>
-
-            <div id="lefttop" style="margin-bottom:5px;">
+          <div id="lefttop" style="margin-bottom:5px;">
 
                     <div  style="margin-bottom:5px; width: 150px; height: 120px;">
                         <div id="item-list">
