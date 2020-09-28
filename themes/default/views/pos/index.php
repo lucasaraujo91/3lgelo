@@ -415,8 +415,8 @@
                 <?= $Settings->header; ?>
                 <p><?= lang('date'); ?>: <?=date($Settings->dateformat)?></p>
             </div>
-            <div id="print" class="fixed-table-container">
-                <div style="overflow: hidden; width: auto; height: 150px;">
+            <div id="print" class="fixed-table-container" style="height: 130px">
+                <div id="list-table-div">
 
                     <div class="fixed-table-header">
                         <table class="table table-striped table-condensed table-hover list-table" style="margin:0;">
@@ -444,7 +444,6 @@
                         <tbody></tbody>
                     </table>
                 </div>
-                <div style="clear:both;"></div>
                 <div id="totaldiv">
                     <table id="totaltbl" class="table table-condensed totals" style="margin-bottom:10px;">
                         <tbody>
@@ -473,6 +472,8 @@
                     </table>
                 </div>
             </div>
+                <div style="clear:both;"></div>
+
             <div id="botbuttons" class="col-xs-12 text-center">
                 <div class="row">
                     <div class="col-xs-4" style="padding: 0;">
@@ -1016,6 +1017,12 @@
             <?= form_close(); ?>
         </div>
     </div>
+    <footer class="main-footer">
+        <div class="pull-right hidden-xs">
+            Version <strong><?= $Settings->version; ?></strong>
+        </div>
+        Copyright &copy; <?= date('Y') . ' ' . $Settings->site_name; ?>. All rights reserved.
+    </footer>
 </div>
 
 <div class="modal" data-easein="flipYIn" id="posModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>
@@ -1302,5 +1309,13 @@ if (isset($print) && !empty($print)) {
 <?php if($Settings->remote_printing != 1 && $Settings->print_img) { ?>
     <script src="<?= $assets ?>dist/js/htmlimg.js"></script>
 <?php } ?>
+
+<footer class="main-footer">
+    <div class="pull-right hidden-xs">
+        Version <strong><?= $Settings->version; ?></strong>
+    </div>
+    Copyright &copy; <?= date('Y') . ' ' . $Settings->site_name; ?>. All rights reserved.
+</footer>
+</div>
 </body>
 </html>
