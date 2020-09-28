@@ -440,7 +440,7 @@
                             </thead>
                         </table>
                     </div>
-                    <table id="posTable" class="table table-striped table-condensed table-hover list-table" style="margin:0px;" data-height="100">
+                    <table id="posTable" class="table table-striped table-condensed table-hover list-table" style="margin:0px;" data-height="100" style="height: 30px">
                         <thead>
                         <tr class="success">
                             <th><?=lang('product')?></th>
