@@ -389,7 +389,7 @@
                     <td style="width: 620px;">
 
                         <div id="pos">
-                            <div  style="margin-bottom:5px; width: 150px; height: 120px;">
+                            <div  style="margin-bottom:5px; ">
                                     <div id="item-list">
                                 <div class="items">
                                     <?php echo $products; ?>
