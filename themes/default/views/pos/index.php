@@ -1021,15 +1021,6 @@
 <div class="modal" data-easein="flipYIn" id="posModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>
 <div class="modal" data-easein="flipYIn" id="posModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true"></div>
 </div>
-
-<footer class="main-footer">
-    <div class="pull-right hidden-xs">
-        Version <strong><?= $Settings->version; ?></strong>
-    </div>
-    Copyright &copy; <?= date('Y') . ' ' . $Settings->site_name; ?>. All rights reserved.
-</footer>
-
-
 <script type="text/javascript">
     var base_url = '<?=base_url();?>', assets = '<?= $assets ?>';
     var dateformat = '<?=$Settings->dateformat;?>', timeformat = '<?= $Settings->timeformat ?>';
@@ -1312,6 +1303,12 @@ if (isset($print) && !empty($print)) {
     <script src="<?= $assets ?>dist/js/htmlimg.js"></script>
 <?php } ?>
 
-
+<footer class="main-footer">
+    <div class="pull-right hidden-xs">
+        Version <strong><?= $Settings->version; ?></strong>
+    </div>
+    Copyright &copy; <?= date('Y') . ' ' . $Settings->site_name; ?>. All rights reserved.
+</footer>
+</div>
 </body>
 </html>
