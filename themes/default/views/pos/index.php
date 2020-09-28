@@ -389,7 +389,7 @@
                     <td style="width: 720px;">
 
                         <div id="pos">
-                            <div  style="margin-bottom:5px; width: 150px; height: 90px;">
+                            <div  style="margin-bottom:5px; width: 150px; height: 105px;">
                                     <div id="item-list">
                                 <div class="items">
                                     <?php echo $products; ?>
@@ -398,7 +398,19 @@
                         </div>
         <?= form_open('pos', 'id="pos-sale-form"'); ?>
 
+            <div id="lefttop" style="margin-bottom:5px;">
+                <div class="form-group" style="margin-bottom:5px;">
+                    <div class="input-group">
+                        <?php foreach($customers as $customer){ $cus[$customer->id] = $customer->name; } ?>
+                        <?= form_dropdown('customer_id', $cus, set_value('customer_id', $Settings->default_customer), 'id="spos_customer" data-placeholder="' . lang("select") . ' ' . lang("customer") . '" required="required" class="form-control select2" style="width:100%;position:absolute;"'); ?>
+                        <div class="input-group-addon no-print" style="padding: 2px 5px;">
+                            <a href="#" id="add-customer" class="external" data-toggle="modal" data-target="#myModal"><i class="fa fa-2x fa-plus-circle" id="addIcon"></i></a>
+                        </div>
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
 
+            </div>
             <div id="printhead" class="print">
                 <?= $Settings->header; ?>
                 <p><?= lang('date'); ?>: <?=date($Settings->dateformat)?></p>
