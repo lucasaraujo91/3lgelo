@@ -382,6 +382,7 @@
                 <?php } ?>
             </div>
         <section class="content-header">
+            <div class="well well-sm" id="leftdiv">
             <table style="width:100%;" class="layout-table">
                 <tr>
 
@@ -396,7 +397,7 @@
                             </div>
                         </div>
         <?= form_open('pos', 'id="pos-sale-form"'); ?>
-        <div class="well well-sm" id="leftdiv">
+
             <div id="lefttop" style="margin-bottom:5px;">
                 <div class="form-group" style="margin-bottom:5px;">
                     <div class="input-group">
