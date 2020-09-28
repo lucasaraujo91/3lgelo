@@ -386,10 +386,10 @@
             <table style="width:100%;" class="layout-table">
                 <tr>
 
-                    <td style="width: 620px;">
+                    <td style="width: 720px;">
 
                         <div id="pos">
-                            <div  style="margin-bottom:5px; ">
+                            <div  style="margin-bottom:5px; width: 150px; height: 70px;">
                                     <div id="item-list">
                                 <div class="items">
                                     <?php echo $products; ?>
