@@ -1302,5 +1302,13 @@ if (isset($print) && !empty($print)) {
 <?php if($Settings->remote_printing != 1 && $Settings->print_img) { ?>
     <script src="<?= $assets ?>dist/js/htmlimg.js"></script>
 <?php } ?>
+</div>
+<footer class="main-footer">
+    <div class="pull-right hidden-xs">
+        Version <strong><?= $Settings->version; ?></strong>
+    </div>
+    Copyright &copy; <?= date('Y') . ' ' . $Settings->site_name; ?>. All rights reserved.
+</footer>
+</div>
 </body>
 </html>
