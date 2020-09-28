@@ -386,7 +386,7 @@
             <table style="width:100%;" class="layout-table">
                 <tr>
 
-                    <td style="width: 720px;">
+                    <td style="width: 250px;">
 
                         <div id="pos">
                             <div  style="margin-bottom:5px; width: 150px; height: 105px;">
@@ -416,7 +416,8 @@
                 <p><?= lang('date'); ?>: <?=date($Settings->dateformat)?></p>
             </div>
             <div id="print" class="fixed-table-container">
-                <div id="list-table-div">
+                <div style="overflow: hidden; width: auto; height: 150px;">
+
                     <div class="fixed-table-header">
                         <table class="table table-striped table-condensed table-hover list-table" style="margin:0;">
                             <thead>
