@@ -9,7 +9,7 @@
     <?= $Settings->rtl ? '<link href="'.$assets.'dist/css/rtl.css" rel="stylesheet" />' : ''; ?>
     <script src="<?= $assets ?>plugins/jQuery/jQuery-2.1.4.min.js"></script>
 </head>
-<body class="skin-<?= $Settings->theme_style; ?> fixed sidebar-mini">
+<div class="skin-<?= $Settings->theme_style; ?> fixed sidebar-mini">
 <div class="wrapper rtl rtl-inv">
 
     <header class="main-header">
@@ -999,7 +999,8 @@
     </div>
     Copyright &copy; <?= date('Y') . ' ' . $Settings->site_name; ?>. All rights reserved.
 </footer>
-
+</div>
+</div>
 <div class="modal" data-easein="flipYIn" id="posModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>
 <div class="modal" data-easein="flipYIn" id="posModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true"></div>
 </div>
