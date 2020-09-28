@@ -415,7 +415,7 @@
                 <?= $Settings->header; ?>
                 <p><?= lang('date'); ?>: <?=date($Settings->dateformat)?></p>
             </div>
-            <div id="print" class="fixed-table-container" style="height: 200px;">
+            <div id="print" class="fixed-table-container" style="height: 140px;">
                 <div id="list-table-div" >
 
                     <div class="fixed-table-header">
@@ -445,33 +445,7 @@
                     </table>
                 </div>
                 <div style="clear:both;"></div>
-                <div id="totaldiv">
-                    <table id="totaltbl" class="table table-condensed totals" style="margin-bottom:10px;">
-                        <tbody>
-                        <tr class="info">
-                            <td width="25%"><?=lang('total_items')?></td>
-                            <td class="text-right" style="padding-right:10px;"><span id="count">0</span></td>
-                            <td width="25%"><?=lang('total')?></td>
-                            <td class="text-right" colspan="2"><span id="total">0</span></td>
-                        </tr>
-                        <tr class="info">
-                            <td width="25%"><a href="#" id="add_discount"><?=lang('discount')?></a></td>
-                            <td class="text-right" style="padding-right:10px;"><span id="ds_con">0</span></td>
-                            <td width="25%"><a href="#" id="add_tax"><?=lang('order_tax')?></a></td>
-                            <td class="text-right"><span id="ts_con">0</span></td>
-                        </tr>
-                        <tr class="success">
-                            <td colspan="2" style="font-weight:bold;">
-                                <?=lang('total_payable')?>
-                                <a role="button" data-toggle="modal" data-target="#noteModal">
-                                    <i class="fa fa-comment"></i>
-                                </a>
-                            </td>
-                            <td class="text-right" colspan="2" style="font-weight:bold;"><span id="total-payable">0</span></td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
+
             </div>
             <div id="botbuttons" class="col-xs-12 text-center">
                 <div class="row">
