@@ -415,8 +415,8 @@
                 <?= $Settings->header; ?>
                 <p><?= lang('date'); ?>: <?=date($Settings->dateformat)?></p>
             </div>
-            <div id="print" class="fixed-table-container">
-                <div id="list-table-div" style="overflow: hidden; width: auto; height: 60px;">
+            <div id="print" class="fixed-table-container" style="height: 170px">
+                <div id="list-table-div">
 
                     <div class="fixed-table-header">
                         <table class="table table-striped table-condensed table-hover list-table" style="margin:0;">
