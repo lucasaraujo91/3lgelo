@@ -415,8 +415,8 @@
                 <?= $Settings->header; ?>
                 <p><?= lang('date'); ?>: <?=date($Settings->dateformat)?></p>
             </div>
-            <div id="print" class="fixed-table-container" style="height: 170px">
-                <div id="list-table-div">
+            <div id="print" class="fixed-table-container">
+                <div style="overflow: hidden; width: auto; height: 150px;">
 
                     <div class="fixed-table-header">
                         <table class="table table-striped table-condensed table-hover list-table" style="margin:0;">
@@ -1302,13 +1302,5 @@ if (isset($print) && !empty($print)) {
 <?php if($Settings->remote_printing != 1 && $Settings->print_img) { ?>
     <script src="<?= $assets ?>dist/js/htmlimg.js"></script>
 <?php } ?>
-
-<footer class="main-footer">
-    <div class="pull-right hidden-xs">
-        Version <strong><?= $Settings->version; ?></strong>
-    </div>
-    Copyright &copy; <?= date('Y') . ' ' . $Settings->site_name; ?>. All rights reserved.
-</footer>
-</div>
 </body>
 </html>
