@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-Frame-Options" content="deny">
     <title><?= $page_title.' | '.$Settings->site_name; ?></title>
     <link rel="shortcut icon" href="<?= $assets ?>images/icon.png"/>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
