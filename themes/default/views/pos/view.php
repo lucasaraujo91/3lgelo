@@ -190,7 +190,7 @@ if ($modal) {
                                     }
                                     echo "<tr class=\"text-right\"><td colspan=\"4\"></td></tr>
                                           <tr class=\"text-right\">
-                                          <td>Ass:</td>
+                                          <td>Assinatura:</td>
                                           <td colspan=\"6\" style=\"border-bottom: 3px solid #000000;\"></td>
                                           </tr>";
                                     echo '</tbody></table>';
