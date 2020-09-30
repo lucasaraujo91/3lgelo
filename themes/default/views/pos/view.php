@@ -15,6 +15,16 @@ if ($modal) {
                     <meta charset="utf-8">
                     <title><?= $page_title . " " . lang("number") . " " . $inv->id; ?></title>
                     <base href="<?= base_url() ?>"/>
+
+
+
+                        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+                        <link href="<?= $assets ?>dist/css/styles.css" rel="stylesheet" type="text/css" />
+                        <?= $Settings->rtl ? '<link href="'.$assets.'dist/css/rtl.css" rel="stylesheet" />' : ''; ?>
+                        <script src="<?= $assets ?>plugins/jQuery/jQuery-2.1.4.min.js"></script>
+
+
+
                     <meta http-equiv="cache-control" content="max-age=0"/>
                     <meta http-equiv="cache-control" content="no-cache"/>
                     <meta http-equiv="expires" content="0"/>
@@ -32,7 +42,7 @@ if ($modal) {
 
                         @media print {
                             .no-print { display: none; }
-                            #wrapper { max-width: 480px; width: 100%; min-width: 250px; margin: 0 auto; }
+                            #wrapper { max-width: 9080px; width: 100%; min-width: 250px; margin: 0 auto; }
                         }
                         <?php if($Settings->rtl) { ?>
                             .text-right { text-align: left; }
@@ -57,6 +67,8 @@ if ($modal) {
                             </div>
                             <?php } ?>
                         </div>
+
+
                         <div id="receipt-data">
                             <div>
                                 <div style="text-align:center;">
