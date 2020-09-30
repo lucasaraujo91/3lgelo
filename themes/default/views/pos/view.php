@@ -15,34 +15,30 @@ if ($modal) {
                     <meta charset="utf-8">
                     <title><?= $page_title . " " . lang("number") . " " . $inv->id; ?></title>
                     <base href="<?= base_url() ?>"/>
-
-
-
-                        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-                        <link href="<?= $assets ?>dist/css/styles.css" rel="stylesheet" type="text/css" />
-                        <?= $Settings->rtl ? '<link href="'.$assets.'dist/css/rtl.css" rel="stylesheet" />' : ''; ?>
-                        <script src="<?= $assets ?>plugins/jQuery/jQuery-2.1.4.min.js"></script>
-
-
-
                     <meta http-equiv="cache-control" content="max-age=0"/>
                     <meta http-equiv="cache-control" content="no-cache"/>
                     <meta http-equiv="expires" content="0"/>
                     <meta http-equiv="pragma" content="no-cache"/>
                     <link rel="shortcut icon" href="<?= $assets ?>images/icon.png"/>
                     <link href="<?= $assets ?>dist/css/styles.css" rel="stylesheet" type="text/css" />
+
+                    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+                    <link href="<?= $assets ?>dist/css/styles.css" rel="stylesheet" type="text/css" />
+                    <?= $Settings->rtl ? '<link href="'.$assets.'dist/css/rtl.css" rel="stylesheet" />' : ''; ?>
+                    <script src="<?= $assets ?>plugins/jQuery/jQuery-2.1.4.min.js"></script>
+
                     <style type="text/css" media="all">
                         body { color: #000; }
-                        #wrapper { max-width: 520px; margin: 0 auto; padding-top: 20px; }
+                        #wrapper { max-width: 520px; margin: 10px auto; padding: 5px; }
                         .btn { margin-bottom: 5px; }
                         .table { border-radius: 3px; }
                         .table th { background: #f5f5f5; }
                         .table th, .table td { vertical-align: middle !important; }
-                        h3 { margin: 5px 0; }
+
 
                         @media print {
                             .no-print { display: none; }
-                            #wrapper { max-width: 9080px; width: 100%; min-width: 250px; margin: 0 auto; }
+                            #wrapper { max-width: 480px; width: 100%; min-width: 250px; margin: 2 auto; }
                         }
                         <?php if($Settings->rtl) { ?>
                             .text-right { text-align: left; }
@@ -57,8 +53,8 @@ if ($modal) {
                     <?php
                 }
                 ?>
-                <div id="wrapper">
-                    <div id="receiptData" style="width: auto; max-width: 580px; min-width: 250px; margin: 0 auto;">
+                <div id="wrapper" >
+                    <div id="receiptData" style="max-width: 580px; min-width: 250px; margin: 7px; padding: 5px;">
                         <div class="no-print">
                             <?php if ($message) { ?>
                             <div class="alert alert-success">
@@ -67,8 +63,6 @@ if ($modal) {
                             </div>
                             <?php } ?>
                         </div>
-
-
                         <div id="receipt-data">
                             <div>
                                 <div style="text-align:center;">
@@ -191,7 +185,14 @@ if ($modal) {
                                             echo $payment->note ? '</tr><td colspan="2">' . lang("payment_note") . ' :</td><td>' . $payment->note . '</td>' : '';
                                         }
                                         echo '</tr>';
+
+
                                     }
+                                    echo "<tr><td colspan=\"4\"></td></tr>
+                                          <tr class=\"text-right\">
+                                          <td>Ass:</td>
+                                          <td colspan=\"6\" style=\"border-bottom: 3px solid #000000;\"></td>
+                                          </tr>";
                                     echo '</tbody></table>';
                                 }
 
