@@ -188,15 +188,12 @@ if ($modal) {
 
 
                                     }
-                                    echo "<tr class=\"text-right\"><td colspan=\"4\"></td></tr>
-                                          <tr class=\"text-right\">
-                                          <td>Assinatura:</td>
-                                          <td colspan=\"6\" style=\"border-bottom: 3px solid #000000;\"></td>
-                                          </tr>";
+
                                     echo '</tbody></table>';
                                 }
 
                                 ?>
+                                <div class="well well-sm"  style="margin-top:10px;"><b>Assinatura:</b></div>
 
                                 <?= $inv->note ? '<p style="margin-top:10px; text-align: center;">' . $this->tec->decode_html($inv->note) . '</p>' : ''; ?>
                                 <?php if (!empty($store->receipt_footer)) { ?>

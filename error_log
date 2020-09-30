@@ -43,3 +43,4 @@
 [25-Sep-2020 19:32:57 America/Sao_Paulo] PHP Fatal error:  Call to a member function num_rows() on boolean in /var/www/html/pdv/lib/database/DB_query_builder.php on line 1429
 [25-Sep-2020 19:38:50 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /var/www/html/pdv/app/controllers/Products.php on line 53
 [25-Sep-2020 19:38:54 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /var/www/html/pdv/app/controllers/Products.php on line 53
+[29-Sep-2020 22:09:15 America/Caracas] PHP Parse error:  syntax error, unexpected end of file in /var/www/html/pdv/themes/default/views/pos/view.php on line 320
